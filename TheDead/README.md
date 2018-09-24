@@ -1,4 +1,4 @@
-# InsurgencyANZ / The Dead
+# InsurgencyANZ / TheDead
 The Dead; a work-in-progress mod for Insurgency, previously called The Hidden. Based off of the original HL2 Mod.
 
 ## License

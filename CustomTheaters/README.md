@@ -1,4 +1,4 @@
-# InsurgencyANZ / Custom Theaters
+# InsurgencyANZ / CustomTheaters
 Competitive theaters, used on Insurgency ANZ servers, by Pacific Gaming League or created for the Steam Workshop. All theaters are original. Some are also available on the Steam Workshop.
 
 ## Installation

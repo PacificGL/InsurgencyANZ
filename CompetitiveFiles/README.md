@@ -1,4 +1,4 @@
-# InsurgencyANZ / Competitive Files
+# InsurgencyANZ / CompetitiveFiles
 Competitive files, used on Insurgency ANZ servers, by Pacific Gaming League. Includes all original content. **Requires Sourcemod**
 
 ### Resulting Server Config:
