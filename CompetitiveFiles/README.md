@@ -15,7 +15,7 @@ Competitive files, used on Insurgency ANZ servers, by Pacific Gaming League. Inc
 * **3rd Person Spectating:** Disabled
 
 ##  Installation
-1) Copy the following files to their respective locations (Make copies of your files and overwrite with these new ones);
+1) Copy the contents to your server root (eg. `'insurgency/'`) ensuring you backup the original files, first. Here is what will be overwritten and where;
     * `'mapcycle.txt'` -> `'insurgency/'` (With all the other mapcycle files)
 
     * `'server.cfg'` -> `'insurgency/cfg/'` (Where 'server.cfg' is)
