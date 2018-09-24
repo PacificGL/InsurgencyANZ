@@ -1,0 +1,258 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+				}
+				
+				// recon team
+				"#Fireteam_Bravo"
+				{
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+					"Shotty Wielding Maniac"				"template_specialist_security"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"squads"
+			{
+				// assault group
+				"#Cell_Alpha"
+				{
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+				}
+				
+				// scout cell
+				"#Cell_Bravo"
+				{
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+					"Shotty Wielding Maniac"							"template_scout_insurgent"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_specialist_security"
+		{	
+			"team"			"security"			
+			"print_name"	"#Squad_Fireteam_Specialist"	
+
+			"models"
+			{
+				"player"				"models/characters/security_specialist.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m590"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_toz"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
+			}
+		}
+		
+		"template_scout_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Scout"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_toz"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_toz"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
+			}
+		}
+	}
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"sec_chest_rig"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_rig"
+		{
+			"IsBase"				"1"
+		}
+		"sec_light_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_light_armor"
+		{
+			"IsBase"				"1"
+		}
+		"sec_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"weapon_upgrades"
+	{
+		"sec_flashlight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"ins_flashlight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"sec_lasersight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"ins_lasersight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"optic_2xaimpoint_ins"
+		{
+			"IsBase"				"1"
+		}
+		"optic_kobra"
+		{
+			"IsBase"				"1"
+		}
+		"ins_foregrip2"
+		{
+			"IsBase"				"1"
+		}
+		"ins_silencer_heavy"
+		{
+			"IsBase"				"1"
+		}
+		"Suppressor_SG"
+		{
+			"IsBase"				"1"
+		}
+		"Silencer_SG"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_slugs"
+		{
+			"IsBase"				"1"
+		}
+		"optic_2xaimpoint_sec"
+		{
+			"IsBase"				"1"
+		}
+		"optic_aimpoint"
+		{
+			"IsBase"				"1"
+		}
+		"optic_eotech"
+		{
+			"IsBase"				"1"
+		}
+		"sec_foregrip2"
+		{
+			"IsBase"				"1"
+		}
+		"sec_silencer_heavy"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"weapons"
+	{
+		"weapon_m67"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_f1"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m9"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m45"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_makarov"
+		{
+			"IsBase"				"1"
+		}
+	}
+}

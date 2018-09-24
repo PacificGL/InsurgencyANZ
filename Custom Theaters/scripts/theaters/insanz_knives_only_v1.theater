@@ -1,0 +1,281 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"Survivalists"
+				{
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+				}
+				"More Survivalists"
+				{
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+					"Bear Grylls"						"template_sniper_security"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"squads"
+			{
+				"Crazy Knife Wielders"
+				{
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+				}
+				"More Crazy Knife Wielders"
+				{
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+					"Crazy Man"						"template_sniper_insurgent"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_sniper_security"
+		{	
+			"team"			"security"
+			"print_name"	"Bear Grylls"
+
+			"models"
+			{
+				"player"			"models/characters/security_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"helmet"			"models/characters/us_helmet.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_kabar"
+			}
+		}
+		"template_sniper_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Knife Wielder"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_gurkha"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_gurkha"
+			}
+		}
+	}
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"sec_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"sec_light_armor"
+		{
+			"IsBase"				"1"
+		}
+		"sec_chest_rig"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_rig"
+		{
+			"IsBase"				"1"
+		}
+		"ins_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_light_armor"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"weapon_upgrades"
+	{
+		"ammo_ap_m40a1"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_mosin"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m45"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m9"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_makarov"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_m40a1"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_mosin"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_m45"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_makarov"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"optic_scope_7x"
+		{
+			"IsBase"				"1"
+		}
+		"optic_2xaimpoint_ins"
+		{
+			"IsBase"				"1"
+		}
+		"optic_kobra"
+		{
+			"IsBase"				"1"
+		}
+		"optic_po4x24"
+		{
+			"IsBase"				"1"
+		}
+		"optic_scope_7x"
+		{
+			"IsBase"				"1"
+		}
+		"ins_lasersight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"ins_flashlight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"sec_lasersight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"sec_flashlight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"optic_2xaimpoint_sec"
+		{
+			"IsBase"				"1"
+		}
+		"optic_aimpoint"
+		{
+			"IsBase"				"1"
+		}
+		"optic_elcan"
+		{
+			"IsBase"				"1"
+		}
+		"optic_eotech"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"weapons"
+	{
+		"weapon_m40a1"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m9"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m67"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_f1"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m45"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_makarov"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m14"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_mosin"
+		{
+			"IsBase"				"1"
+		}
+	}
+}

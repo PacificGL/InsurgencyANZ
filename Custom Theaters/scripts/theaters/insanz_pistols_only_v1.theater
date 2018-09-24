@@ -1,0 +1,226 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+				}
+				
+				// recon team
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+					"#Squad_Fireteam_Specialist"				"template_specialist_security"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"squads"
+			{
+				// assault group
+				"#Cell_Alpha"
+				{
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+				}
+				
+				// scout cell
+				"#Cell_Bravo"
+				{
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_specialist_security"
+		{	
+			"team"			"security"			
+			"print_name"	"#Squad_Fireteam_Specialist"	
+
+			"models"
+			{
+				"player"				"models/characters/security_specialist.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m9"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				"weapon"			"weapon_makarov"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
+				"weapon_upgrade"	"sec_silencer_pistol"
+				"weapon_upgrade"	"ins_silencer_pistol"
+			}
+		}
+		
+		"template_scout_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Scout"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_gurkha"
+				"weapon"			"weapon_m9"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_gurkha"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				"weapon"			"weapon_makarov"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"sec_silencer_pistol"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"ins_foregrip1"	"1"
+					"ins_foregrip2"	"1"
+					"ins_woodgrip"	"1"
+				}
+			}
+		}
+	}
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"sec_chest_rig"
+		{
+			"IsBase"				"1"
+		}
+		"sec_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"sec_light_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_rig"
+		{
+			"IsBase"				"1"
+		}
+		"ins_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_light_armor"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"weapon_upgrades"
+	{
+		"sec_flashlight_pistol"
+		{
+			"IsBase"				"1"
+		}
+		"ins_flashlight_pistol"
+		{
+			"IsBase"				"1"
+		}
+		"sec_lasersight_pistol"
+		{
+			"IsBase"				"1"
+		}
+		"ins_lasersight_pistol"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"weapons"
+	{
+		"weapon_m67"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_f1"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m1911"
+		{
+			"weapon_cost"					"0"
+		}
+		"weapon_m9"
+		{
+			"weapon_cost"					"0"
+		}
+		"weapon_m45"
+		{
+			"weapon_cost"					"0"
+		}
+		"weapon_makarov"
+		{
+			"weapon_cost"					"0"
+		}
+	}
+}
