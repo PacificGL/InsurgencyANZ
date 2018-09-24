@@ -1,7 +1,7 @@
 # InsurgencyANZ / Competitive Files
 Competitive theaters, used on Insurgency ANZ servers, by Pacific Gaming League or created for the Steam Workshop. All theaters are original. Some are also available on the Steam Workshop.
 
-# Installation
+## Installation
 1) Copy the desired theater files to `'insurgency/scripts/theaters/'`. You may have to create `'/scripts/theaters/'`
     * *eg. `'insanz_ladder_v1.theater'` -> `'insurgency/scripts/theaters/'`*
 
@@ -9,7 +9,7 @@ Competitive theaters, used on Insurgency ANZ servers, by Pacific Gaming League o
 
 3) Save the file, then restart your server. Enjoy!
 
-# License
+## License
     Insurgency ANZ GitHub Repository
     Copyright (C) 2018 Pacific Gaming League.
 
