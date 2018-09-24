@@ -2,25 +2,22 @@
 Competitive theaters, used on Insurgency ANZ servers, by Pacific Gaming League or created for the Steam Workshop. All theaters are original. Some are also available on the Steam Workshop.
 
 ## Installation
-1) Download GCFScape: http://nemesis.thewavelength.net/files/files/gcfscape185.zip 
-    * Exract the "HLLib.dll" and "GCFScape.exe" to any location and you are done
+1) Download [GCFScape](http://nemesis.thewavelength.net/files/files/gcfscape185.zip) & exract "HLLib.dll" & "GCFScape.exe" to any location
 
-2) Download GIMP: http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe
-    * Run the setup file
+2) Download [GIMP](http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe) & run the setup file
 
-3) Download GIMP vtf Plugin: https://code.google.com/p/gimp-vtf/downloads/detail?name=gimp-vtf-1.2.1_x64.zip&can=2&q=
-    * Extract the "file-vtf.exe" and "VTFLib.dll" to your GIMP plug-ins folder. (C:\Users\<USER>\.gimp-x.x\plug-ins\)
+3) Download [GIMP vtf Plugin](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gimp-vtf/gimp-vtf-1.2.1_x64.zip) & extract "file-vtf.exe" & "VTFLib.dll" to your GIMP plug-ins folder. (`'C:\Users\<USER>\.gimp-x.x\plug-ins\'`)
 
 **GCFScape**
 1) Launch GCFScape
 
-2) Open "insurgency_materials_dir.vpk" (C:\Program Files (x86)\Steam\SteamApps\common\insurgency2\insurgency\)
+2) Open `'insurgency_materials_dir.vpk'` (`'C:\Program Files (x86)\Steam\SteamApps\common\insurgency2\insurgency\'`)
 
 3) Navigate inside "materials" to "models" then copy "player" and "weapons" to any location (I use the GCFScape folder for ease)
 
 4) Once they have copied across, close GCFScape
 
-NOTE: The point of this is to access all Insurgency player, weapon and attachment vtf files
+*NOTE: The point of this is to access all Insurgency player, weapon and attachment vtf files*
 
 **Preparing Directory**
 * Create "custom" folder in the Insurgency directory (Eg. C:\Program Files (x86)\Steam\SteamApps\common\insurgency2\insurgency\custom)
