@@ -1,9 +1,13 @@
-# InsurgencyANZ
-Skins, mods, plugins &amp; theaters for Insurgency 2014 (with Sourcemod)
+# InsurgencyANZ / Competitive Files
+Competitive theaters, used on Insurgency ANZ servers, by Pacific Gaming League or created for the Steam Workshop. All theaters are original. Some are also available on the Steam Workshop.
 
-# Credits
-- All Files \- [Dr. Ace Misanthrope](https://github.com/FlyingAce015)
-- Remove Restricted Areas \- [Jarred Ballou](https://github.com/jaredballou/insurgency-sourcemod#restrictedarea)
+###  INSTALLATION:
+1) Copy the desired theater files to `insurgency/scripts/theaters/`. You may have to create `/scripts/theaters/`
+    * *eg. `insanz_ladder_v1.theater` -> `insurgency/scripts/theaters/`*
+
+2) Open `server.cfg` in `insurgency/cfg/` and add `mp_theater_override insanz_ladder_v1`
+
+3) Save the file, then restart your server. Enjoy!
 
 # License
     Insurgency ANZ GitHub Repository
