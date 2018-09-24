@@ -1,9 +1,5 @@
 # InsurgencyANZ
-Skins, mods, plugins &amp; theaters for Insurgency 2014 (with Sourcemod)
-
-# Credits
-- All Files \- [Dr. Ace Misanthrope](https://github.com/FlyingAce015)
-- Remove Restricted Areas \- [Jarred Ballou](https://github.com/jaredballou/insurgency-sourcemod#restrictedarea)
+The Dead, a work-in-progress mod for Insurgency, previously called The Hidden. Based off of the original HL2 Mod.
 
 # License
     Insurgency ANZ GitHub Repository
