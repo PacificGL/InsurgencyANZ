@@ -4,14 +4,14 @@ CustomSkins/*
 # Allow CustomSkins README
 !/CustomSkins/README.md
 
-# Allow Auscam_Security
+# Allow CustomSkins/Auscam_Security (AU)
 !/CustomSkins/Auscam_Security
 
-# Allow Multicam_Security
+# Allow CustomSkins/Multicam_Security (AU)
 !/CustomSkins/Multicam_Security
 
-# Allow NSW (State of Origin)
+# Allow CustomSkins/NSW (State of Origin)
 !/CustomSkins/NSW
 
-# Allow QLD (State of Origin)
+# Allow CustomSkins/QLD (State of Origin)
 !/CustomSkins/QLD
