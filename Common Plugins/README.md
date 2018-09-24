@@ -1,7 +1,7 @@
 # InsurgencyANZ / Common Plugins
 Common plugins, used on Insurgency ANZ servers, by Pacific Gaming League. Includes a combination of original and community made plugins. **Requires Sourcemod**
 
-# License
+## License
     Insurgency ANZ GitHub Repository
     Copyright (C) 2018 Pacific Gaming League.
 
