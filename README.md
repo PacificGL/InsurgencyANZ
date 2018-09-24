@@ -1,6 +1,10 @@
 # InsurgencyANZ
 Skins, mods, plugins &amp; theaters for Insurgency 2014 (with Sourcemod)
 
+# Credits
+All Files - [Dr. Ace Misanthrope](https://github.com/FlyingAce015)
+Remove Restricted Areas - [Jarred Ballou](https://github.com/jaredballou/insurgency-sourcemod#restrictedarea)
+
 # License
     Insurgency ANZ GitHub Repository
     Copyright (C) 2018 Pacific Gaming League.
