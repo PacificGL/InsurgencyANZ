@@ -1,1 +1,4 @@
 CustomSkins
+CustomSkins/*
+CustomSkins/*/
+!CustomSkins/README.md
