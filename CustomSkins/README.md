@@ -27,7 +27,7 @@ Competitive theaters, used on Insurgency ANZ servers, by Pacific Gaming League o
 3) After changes have been made to the current model you are viewing, you must refresh the model every time
    * `F5` or `File` > `Refresh` to update the display
 
-**CONTROLS:**
+* **Preview Controls:**
    * **Zoom:** Press & Hold RMB
    * **Rotate X:** Press & Hold LMB in circle and move Left or Right
    * **Rotate Y:** Press & Hold LMB in circle and move Up or Down
