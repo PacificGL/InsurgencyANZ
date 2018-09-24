@@ -14,7 +14,7 @@ Competitive files, used on Insurgency ANZ servers, by Pacific Gaming League. Inc
 * **Friendly Fire:** Enabled
 * **3rd Person Spectating:** Disabled
 
-#  Installation
+##  Installation
 1) Copy the following files to their respective locations (Make copies of your files and overwrite with these new ones);
     * `'mapcycle.txt'` -> `'insurgency/'` (With all the other mapcycle files)
 
@@ -32,7 +32,7 @@ Competitive files, used on Insurgency ANZ servers, by Pacific Gaming League. Inc
 
 4) Restart your server and you're done. Enjoy!
 
-# License
+## License
     Insurgency ANZ GitHub Repository
     Copyright (C) 2018 Pacific Gaming League.
 
