@@ -9,3 +9,9 @@ CustomSkins/*
 
 # Allow Multicam_Security
 !/CustomSkins/Multicam_Security
+
+# Allow NSW (State of Origin)
+!/CustomSkins/NSW
+
+# Allow QLD (State of Origin)
+!/CustomSkins/QLD
