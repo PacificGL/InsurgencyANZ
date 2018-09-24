@@ -1,0 +1,54 @@
+whitelist
+{
+	// Server rules used for sv_pure.
+	//
+	// Do not modify this file.
+	//
+	// See pure_server_whitelist_example.txt for more details on when this file is used and what the rules mean.
+
+	//
+	// Require official files for most assets
+	//
+
+	sound\...                            trusted_source
+	models\...                           trusted_source
+	materials\...                        trusted_source
+	particles\...                        trusted_source
+	
+	//
+	// Lock down certain scripts
+	//
+	scripts\dsp_presets.txt				trusted_source
+	scripts\game_sounds.txt             trusted_source
+	scripts\game_sounds_manifest.txt	trusted_source
+	scripts\game_sound_player.txt		trusted_source
+	scripts\ins_sounds_weapons.txt		trusted_source
+	scripts\ins_sounds_voice.txt		trusted_source
+	scripts\ins_sounds_voice_coop.txt	trusted_source
+	scripts\ins_sounds_responses_security.txt 		trusted_source
+	scripts\ins_sounds_responses_insurgent.txt		trusted_source
+	scripts\instructor_lessons.txt		trusted_source
+	scripts\sound_operator_stacks.txt	trusted_source
+	scripts\soundmixers.txt				trusted_source
+
+	//
+	// Allow custom spray decals.
+	//
+	materials\debug\...					any
+	materials\temp\...                  any
+	materials\vgui\...            		any
+	materials\overviews\...				any
+	materials\editor\...				any
+
+	//
+	// Directory for theater mods to put their player stuff in
+	//
+	materials\models\player\custom\...	any
+	models\characters\custom\...		any
+	materials\models\weapons\custom\... any
+	models\weapons\custom\... 			any
+
+	// Blacklist inventory UI icons
+	materials\vgui\inventory\... 		trusted_source
+	materials\vgui\inventory\custom\... any					
+}

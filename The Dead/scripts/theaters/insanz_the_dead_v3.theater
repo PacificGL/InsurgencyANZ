@@ -1,0 +1,363 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"Survivors"
+				{
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+				}
+				"Survivors"
+				{
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"squads"
+			{
+				"The Dead"
+				{
+					"The Dead"					"template_sniper_insurgent"
+					"The Dead"					"template_sniper_insurgent"
+					"The Dead"					"template_sniper_insurgent"
+					"The Dead"					"template_sniper_insurgent"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_sniper_security"
+		{	
+			"team"			"security"
+			"print_name"	"Survivor"
+
+			"models"
+			{
+				"player"			"models/characters/security_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"helmet"			"models/characters/us_helmet.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m590"
+				"gear"				"sec_chest_rig"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_toz"
+				"gear"				"sec_chest_rig"
+			}
+		}
+		"template_sniper_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"The Dead"
+
+			"models"
+			{
+				"player"			"models/characters/civilian_vip.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_vip.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_gurkha"
+				"gear"				"ins_nightvision"
+				
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_gurkha"
+				"gear"				"ins_nightvision"
+			}
+		}
+	}
+	
+	"player_gear"
+	{
+		"ins_nightvision"
+		{
+			"IsBase"				"1"
+		}
+		"sec_chest_rig"
+		{
+			"weapon_cost"			"0"
+		}
+		"sec_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"sec_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"sec_light_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_rig"
+		{
+			"IsBase"				"1"
+		}
+		"ins_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_light_armor"
+		{
+			"IsBase"				"1"
+		}
+	}
+	
+	"weapon_upgrades"
+	{
+		"ammo_slugs"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m40a1"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_mosin"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m45"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m9"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_makarov"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_m40a1"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_mosin"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_m45"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_makarov"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"optic_2xaimpoint_ins"
+		{
+			"IsBase"				"1"
+		}
+		"optic_kobra"
+		{
+			"IsBase"				"1"
+		}
+		"optic_po4x24"
+		{
+			"IsBase"				"1"
+		}
+		"ins_lasersight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"ins_flashlight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"sec_lasersight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"sec_flashlight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"optic_2xaimpoint_sec"
+		{
+			"IsBase"				"1"
+		}
+		"optic_aimpoint"
+		{
+			"IsBase"				"1"
+		}
+		"optic_elcan"
+		{
+			"IsBase"				"1"
+		}
+		"optic_eotech"
+		{
+			"IsBase"				"1"
+		}
+		"ins_foregrip2"
+		{
+			"IsBase"				"1"
+		}
+		"sec_foregrip2"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"weapons"
+	{
+		"weapon_gurkha"
+		{
+			"import"					"weapon_base"
+			"weapon_class"				"melee"
+			"weapon_type"				"melee"
+			"print_name"				"#weapon_gurkha"
+			"view_model"				"models/weapons/v_gurkha.mdl"
+			"world_model"				"models/gibs/glass_shard03.mdl"
+			"weapon_slot"				"melee"
+			"act_table"					"knife"
+			"weapon_weight"				"0"
+			"weapon_cost"				"0"
+			"class_restricted"			"0"
+			
+			"sounds"
+			{
+				"shot_single"			"Weapon_Knife.Single"
+				"melee_hit"				"Weapon_Knife.Melee_Hit"
+				"melee_hit_world"		"Weapon_Knife.Melee_HitWorld"
+			}
+			"melee"
+			{
+				"MeleeRange"				"75"
+				"MeleeDamage"				"999"
+				"MeleeDamageBehindBonus"	"999"
+				"MeleeDamageType"			"DMG_SLASH"
+				"MeleeWeaponIdleTime"		"2"
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"Activity"			"ACT_VM_HITCENTER"
+						"PlayerAtivity"		"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle" "ACT_SHOOT_E2W_IDLE_BAT"
+						"StartTime"			"0.1"
+						"EndTime"			"0.34"
+						"Duration"			"0.9"
+						"StartDirection"	"E"
+						"EndDirection"		"W"
+						"ForceDirection"	"15 -40 0"
+					}
+				}
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"0"
+				"allow_sprint"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"team_access"	"security, insurgent"
+		}
+		"weapon_m590"
+		{
+			"weapon_cost"			"0"
+			"team_access"			"security"
+		}
+		"weapon_toz"
+		{
+			"weapon_cost"			"0"
+			"team_access"			"security"
+		}
+		"weapon_m40a1"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_mosin"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m9"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m67"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_f1"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m45"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_makarov"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m14"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"player_settings"
+	{
+		"scoring"
+		{
+			"kill"						"10" 
+			"kill_offensive"			"10"
+			"kill_defensive"			"10" 
+			"kill_headshot_bonus"		"10"	
+			"kill_savior"				"10"	
+			"kill_bonus_domination"		"10"	
+			"kill_bonus_revenge"		"10"	
+			"assist"					"5"	
+
+			"obj_captured"				"0"
+			"obj_neutralized"			"0"
+			"cache_destroyed"			"0"
+			"intel_captured"			"0"
+			"vip_killed"				"0"
+			"safehouse_secured"			"0"
+		}
+	}
+}
