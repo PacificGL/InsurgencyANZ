@@ -2,10 +2,10 @@
 A collection of skins, mods, plugins and theaters for Insurgency 2014, developed by Pacific Gaming League and the Insurgency community.
 
 ## Contents
-* [CommonPlugins](https://github.com/PacificGL/InsurgencyANZ/tree/master/CommonPlugins)
-* [CompetitiveFiles](https://github.com/PacificGL/InsurgencyANZ/tree/master/CompetitiveFiles)
-* [CustomTheaters](https://github.com/PacificGL/InsurgencyANZ/tree/master/CustomTheaters)
-* [TheDead](https://github.com/PacificGL/InsurgencyANZ/tree/master/TheDead)
+* [CommonPlugins](https://github.com/PacificGL/InsurgencyANZ/tree/master/CommonPlugins) - A collection of Sourcemod plugins, used by ANZ/PGL servers
+* [CompetitiveFiles](https://github.com/PacificGL/InsurgencyANZ/tree/master/CompetitiveFiles) - The configuration and plugin files, for competitive firefight servers, as hosted by ANZ/PGL
+* [CustomTheaters](https://github.com/PacificGL/InsurgencyANZ/tree/master/CustomTheaters) - Custom theaters created for ANZ/PGL community events and the Steam Workshop
+* [TheDead](https://github.com/PacificGL/InsurgencyANZ/tree/master/TheDead) - A WIP mod, inspired by The Hidden
 
 ## Credits
 * ANZ/PGL Mods \- [Dr. Ace Misanthrope](https://github.com/FlyingAce015)
