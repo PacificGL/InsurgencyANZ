@@ -17,15 +17,15 @@ Insurgency ANZ host a 5v5 Competitve Firefight competition in Australia and New 
 
 ###  INSTALLATION:
 1) Copy the following files to their respective locations (Make copies of your files and overwrite with these new ones);
-* `mapcycle.txt` -> `"insurgency/"` (With all the other mapcycle files)
+    * `mapcycle.txt` -> `"insurgency/"` (With all the other mapcycle files)
 
-* `server.cfg` -> `"insurgency/cfg/"` (Where your server.cfg and server_gamemodes config files are)
+    * `server.cfg` -> `"insurgency/cfg/"` (Where server.cfg is)
 
-* `server_firefight.cfg` -> `"insurgency/cfg/"` (Where your server.cfg and server_gamemodes config files are)
+    * `server_firefight.cfg` -> `"insurgency/cfg/"` (Where server.cfg is)
 
-* `server_pure_whitelist.txt` -> `"insurgency/cfg/"` (Where your server.cfg and server_gamemodes config files are)
+    * `server_pure_whitelist.txt` -> `"insurgency/cfg/"` (Where server.cfg is)
 
-* `insanz_ladder_v1.theater` -> `"insurgency/scripts/theaters/"` (You may have to create folders "scripts" and "theaters")
+    * `insanz_ladder_v1.theater` -> `"insurgency/scripts/theaters/"` (You may need to create those folders)
 
 2) Open `server.cfg` and ensure you have set your `hostname`, `rcon_password`, `sv_password`.
 
