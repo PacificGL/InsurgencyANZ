@@ -30,7 +30,7 @@ Competitive theaters, used on Insurgency ANZ servers, by Pacific Gaming League o
 2) Open the Light Insurgent model
    * *eg.* `File` > `Load Model` > `characters` > `insurgent_light.mdl`
 3) After changes have been made to the current model you are viewing, you must refresh the model every time
-   * `F5` or `File` > `Refresh`* to update the display
+   * `F5` or `File` > `Refresh` to update the display
 
 **CONTROLS:**
    * **Zoom:** Press & Hold RMB
@@ -50,8 +50,8 @@ Competitive theaters, used on Insurgency ANZ servers, by Pacific Gaming League o
     * *eg.* `'C:/Program Files (x86)/Steam/SteamApps/common/insurgency2/insurgency/custom/LightInsurgentCamo)'`
 5) Create folders that match where you got the GCFScape file from, inside that folder
     * *eg.* `'/custom/LightInsurgentCamo/materials/models/player/ins_light'`
-6) In the new window (`File` > `Export As` > *location from previous step*\*the exact name of the original file*)
-    * *eg.* `'insurgency2/insurgency/custom/LightInsurgentCamo/materials/models/player/ins_light/ins_light_color.vtf'`
+6) In the new window, export with identical file name as the original (`File` > `Export As`)
+    * *eg.* `'/insurgency/custom/LightInsurgentCamo/materials/models/player/ins_light/ins_light_color.vtf'`
 7) Now refresh HLMV to see changes you made, applied to the model
 8) Repeat the `Select` > `All`... `Edit` > `Copy Visible`...  `File` > `Create` > `From Clipboard`, in the new window `File` > `Export As` > `ins_light_color.vtf`, and `Refresh` in HLMV for every change you want to check
 
