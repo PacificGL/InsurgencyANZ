@@ -1,8 +1,7 @@
 # InsurgencyANZ / Competitive Files
 Competitive files, used on Insurgency ANZ servers, by Pacific Gaming League. Includes a combination of original and community made plugins. **Requires Sourcemod**
 
-###  SUMMARY:
-Insurgency ANZ host a 5v5 Competitve Firefight competition in Australia and New Zealand, with CyberGamer. In this collection, there are the files required to replicate this. If you do so, please give credit where credit is due. Thanks!
+### Resulting Server Config:
 * **Game Mode:** Firefight
 * **Score Limit:** Best of 19 Rounds (First to 10)
 * **Round Length:** 5 Minutes
@@ -15,7 +14,7 @@ Insurgency ANZ host a 5v5 Competitve Firefight competition in Australia and New 
 * **Friendly Fire:** Enabled
 * **3rd Person Spectating:** Disabled
 
-###  INSTALLATION:
+#  Installation
 1) Copy the following files to their respective locations (Make copies of your files and overwrite with these new ones);
     * `mapcycle.txt` -> `"insurgency/"` (With all the other mapcycle files)
 
