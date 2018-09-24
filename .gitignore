@@ -1,2 +1,3 @@
 CustomSkins/*
-CustomSkins/*/
+!/CustomSkins/README.md
+/CustomSkins/*
