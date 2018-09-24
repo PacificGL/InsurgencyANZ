@@ -1,0 +1,47 @@
+whitelist
+{
+        //
+        // Three types of file specifications:
+        //
+        //      1. directory\*.*                        - refers to all files under the directory
+        //      2. directory\...                        - refers to all files under the directory and all directories under that (recursively)
+        //      3. directory\filename           - refers to a single file
+
+        // Allow some custom content
+        sound\...                           trusted_source
+        materials\models\hands\...                      trusted_source
+        materials\models\weapons\...        trusted_source
+        models\weapons\...                                      trusted_source
+
+        //
+        // Directory for theater mods to put their player stuff in
+        //
+        materials\models\player\custom\...      trusted_source
+        models\characters\custom\...            trusted_source
+
+        //
+        // Allow replay browser thumbnails.
+        //
+        materials\vgui\replay\thumbnails\...   trusted_source
+
+        //
+        // Remove or comment the lines below if you don't want to allow custom player skins
+        //
+        materials\models\player\attachments\ins_attachments_color.vtf           trusted_source
+        materials\models\player\attachments\us_ins_attachments_color.vtf        trusted_source
+        materials\models\player\attachments\us_ins_helmets_color.vtf            trusted_source
+        materials\models\player\ins_heavy\ins_heavy_color.vtf                           trusted_source
+        materials\models\player\ins_heavy\ins_sapper_color.vtf                          trusted_source
+        materials\models\player\ins_light\ins_light_color.vtf                           trusted_source
+        materials\models\player\ins_medium\ins_fighter_color.vtf                        trusted_source
+        materials\models\player\ins_medium\ins_medium_color.vtf                         trusted_source
+        materials\models\player\ins_medium\ins_machinegunner_color.vtf          trusted_source
+        materials\models\player\us_heavy\us_heavy_color.vtf                                     trusted_source
+        materials\models\player\us_light\us_light_color.vtf                                     trusted_source
+        materials\models\player\us_light\us_specialist_color.vtf                        trusted_source
+
+        //
+        // Don't allow modifying the render target materials
+        //
+        materials\models\weapons\optics\lense_rt.vmt                                            trusted_source
+}
