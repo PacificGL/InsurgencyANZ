@@ -1,9 +1,15 @@
 # InsurgencyANZ
-Skins, mods, plugins &amp; theaters for Insurgency 2014 (with Sourcemod)
+A collection of skins, mods, plugins and theaters for Insurgency 2014, developed by Pacific Gaming League and the Insurgency community.
+
+## Contents
+* [CommonPlugins](https://github.com/PacificGL/InsurgencyANZ/tree/master/)
+* [CompetitiveFiles](https://github.com/PacificGL/InsurgencyANZ/tree/master/)
+* [CustomTheaters](https://github.com/PacificGL/InsurgencyANZ/tree/master/)
+* [TheDead](https://github.com/PacificGL/InsurgencyANZ/tree/master/)
 
 ## Credits
-- All Files \- [Dr. Ace Misanthrope](https://github.com/FlyingAce015)
-- Remove Restricted Areas \- [Jarred Ballou](https://github.com/jaredballou/insurgency-sourcemod#restrictedarea)
+* ANZ/PGL Mods \- [Dr. Ace Misanthrope](https://github.com/FlyingAce015)
+* Remove Restricted Areas \- [Jarred Ballou](https://github.com/jaredballou/insurgency-sourcemod#restrictedarea)
 
 ## License
     Insurgency ANZ GitHub Repository
