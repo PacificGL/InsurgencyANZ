@@ -1,0 +1,27 @@
+whitelist
+{
+	// Server rules used for sv_pure.
+	//
+	// Do not modify this file.
+	//
+	// See pure_server_whitelist_example.txt for more details on when this file is used and what the rules mean.
+
+	//
+	// Enforce consistency for a few critical files
+	//
+
+	// sv_pure 0 only
+	particles\blood_fx.pcf			trusted_source
+	particles\blood_impact.pcf		trusted_source
+	particles\footstep_fx.pcf		trusted_source
+	particles\impact_fx_ins.pcf		trusted_source
+	particles\ins_burning_fx.pcf	trusted_source
+	particles\ins_light_fx.pcf		trusted_source
+	particles\ins_rockettrail.pcf	trusted_source
+	particles\ins_smokegrenade.pcf	trusted_source
+	particles\rain_fx.pcf			trusted_source
+	particles\snow_fx.pcf			trusted_source
+	particles\water_impact.pcf		trusted_source
+	particles\weapon_fx_ins.pcf		trusted_source
+	particles\weapon_fx_tracers.pcf	trusted_source
+}

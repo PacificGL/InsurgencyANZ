@@ -1,0 +1,685 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"Survivors"
+				{
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+				}
+				"Survivors"
+				{
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+					"Survivor"						"template_sniper_security"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"squads"
+			{
+				"The Dead"
+				{
+					"The Dead"					"template_sniper_insurgent"
+					"The Dead"					"template_sniper_insurgent"
+					"The Dead"					"template_sniper_insurgent"
+					"The Dead"					"template_sniper_insurgent"
+					"The Dead"					"template_sniper_insurgent"
+					"The Dead"					"template_sniper_insurgent"
+				}
+			}
+		}
+	}
+	
+	"player_templates"
+	{
+		"template_sniper_security"
+		{	
+			"team"			"security"
+			"print_name"	"Survivor"
+
+			"models"
+			{
+				"player"			"models/characters/security_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"helmet"			"models/characters/us_helmet.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_m45"
+				"gear"				"sec_chest_rig"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_m45"
+				"weapon"			"weapon_mp5"
+				"gear"				"sec_chest_rig"
+			}
+		}
+		"template_sniper_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"The Dead"
+
+			"models"
+			{
+				"player"			"models/characters/civilian_vip.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_vip.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_gurkha"
+				
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_gurkha"
+			}
+		}
+	}
+	
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"sec_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"sec_light_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"ins_chest_rig"
+		{
+			"IsBase"				"1"
+		}
+		"ins_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_light_armor"
+		{
+			"IsBase"				"1"
+		}
+		"ins_nightvision"
+		{
+			"IsBase"				"1"
+		}
+		"sec_nightvision"
+		{
+			"gear_cost"				"0"
+		}
+		"sec_chest_rig"
+		{
+			"gear_cost"				"0"
+		}
+	}
+	
+	"weapon_upgrades"
+	{
+		"ammo_slugs"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m40a1"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_mosin"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m45"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m9"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_makarov"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_m40a1"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_mosin"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_m45"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_makarov"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"optic_2xaimpoint_ins"
+		{
+			"IsBase"				"1"
+		}
+		"optic_kobra"
+		{
+			"IsBase"				"1"
+		}
+		"optic_po4x24"
+		{
+			"IsBase"				"1"
+		}
+		"ins_lasersight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"ins_flashlight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"sec_lasersight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"sec_flashlight_shotgun"
+		{
+			"IsBase"				"1"
+		}
+		"optic_2xaimpoint_sec"
+		{
+			"IsBase"				"1"
+		}
+		"optic_aimpoint"
+		{
+			"IsBase"				"1"
+		}
+		"optic_elcan"
+		{
+			"IsBase"				"1"
+		}
+		"optic_eotech"
+		{
+			"IsBase"				"1"
+		}
+		"ins_foregrip2"
+		{
+			"IsBase"				"1"
+		}
+		"sec_foregrip2"
+		{
+			"IsBase"				"1"
+		}
+		"sec_flashlight_band"
+		{
+			"IsBase"				"1"
+		}
+		"optic_2xaimpoint_sec"
+		{
+			"IsBase"				"1"
+		}
+		"2xScope_Normal"
+		{
+			"IsBase"				"1"
+		}
+		"2xScope_Small"
+		{
+			"IsBase"				"1"
+		}
+		"optic_aimpoint"
+		{
+			"IsBase"				"1"
+		}
+		"optic_elcan"
+		{
+			"IsBase"				"1"
+		}
+		"optic_eotech"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_tracer_mp5"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_ap_mp5"
+		{
+			"IsBase"				"1"
+		}
+		"ammo_hp_mp5"
+		{
+			"IsBase"				"1"
+		}
+		"sec_lasersight_band"
+		{
+			"IsBase"				"1"
+		}
+		"sec_flashlight_rail"
+		{
+			"IsBase"				"1"
+		}
+		"sec_lasersight_rail"
+		{
+			"IsBase"				"1"
+		}
+		"ins_flashlight_pistol"
+		{
+			"IsBase"				"1"
+		}
+		"ins_lasersight_pistol"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"weapons"
+	{
+		"weapon_gurkha"
+		{
+			"import"					"weapon_base"
+			"weapon_class"				"melee"
+			"weapon_type"				"melee"
+			"print_name"				"#weapon_gurkha"
+			"view_model"				"models/weapons/v_gurkha.mdl"
+			"world_model"				"models/gibs/glass_shard03.mdl"
+			"weapon_slot"				"melee"
+			"act_table"					"knife"
+			"weapon_weight"				"0"
+			"weapon_cost"				"0"
+			"class_restricted"			"0"
+			
+			"sounds"
+			{
+				"shot_single"			"Weapon_Knife.Single"
+				"melee_hit"				"Weapon_Knife.Melee_Hit"
+				"melee_hit_world"		"Weapon_Knife.Melee_HitWorld"
+			}
+			"melee"
+			{
+				"MeleeRange"				"75"
+				"MeleeDamage"				"999"
+				"MeleeDamageBehindBonus"	"999"
+				"MeleeDamageType"			"DMG_SLASH"
+				"MeleeWeaponIdleTime"		"2"
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"Activity"			"ACT_VM_HITCENTER"
+						"PlayerAtivity"		"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle" "ACT_SHOOT_E2W_IDLE_BAT"
+						"StartTime"			"0.1"
+						"EndTime"			"0.34"
+						"Duration"			"0.9"
+						"StartDirection"	"E"
+						"EndDirection"		"W"
+						"ForceDirection"	"15 -40 0"
+					}
+				}
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"0"
+				"allow_sprint"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"team_access"	"insurgent"
+		}
+		"weapon_m45"
+		{
+			"import"						"pistol_base"
+			"weapon_class"					"pistol"
+			"print_name"					"#weapon_m45"
+			"print_desc"					"#weapon_m1911_desc"
+			"view_model"					"models/weapons/v_m45.mdl"
+			"world_model"					"models/weapons/w_m45.mdl"
+			"rounds_per_minute"				"600"
+			"weapon_slot"					"secondary"
+			"act_table"						"pistol"
+			"weapon_abilities"				"ironsight"
+			"weapon_weight"					"64"
+			"weapon_cost"					"0"
+			"class_restricted"				"0"
+			"barrel_length"					"10"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-10"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"74"
+				"fov_wpn_sprint"			"74"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"79"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"					"0.15 0.75 0.75"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_M45.Single"
+				"shot_single_local"			"Weapon_M45.SingleLocal"
+				"shot_silent"				"Weapon_M45.SingleSilenced"
+				"shot_silent_local"			"Weapon_M45.SingleSilencedLocal"
+				"empty"						"Weapon_M45.Empty"
+				"magin"						"Weapon_M45.Clipin"
+				"magout"					"Weapon_M45.Clipout"
+				"slide_back"				"Weapon_M45.slideback"
+				"slide_forward"				"Weapon_M45.slideforward"
+				"safety"					"Weapon_M45.safety"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_m9_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_m9_3rd"		
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"				"-1.0 1.25"
+				"recoil_vertical_range"				"3.65 3.75"
+				"recoil_aim_punch"					"0.7 0.75"
+				"recoil_rest_rate"					"9"
+				"recoil_rest_delay"					"0.12"
+				"recoil_roll_range"					"-1.35 -1.35"
+				"recoil_roll_rest_rate"				"150"
+				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_punch_additive_factor" 		"0.9"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+				"recoil_additional_rest_per_shot"	"5"
+				"recoil_freeaim_frac"				"0.5"
+				"recoil_ironsight_frac"				"0.8"
+			}
+			"ballistics"
+			{
+				"spread"					"0.5 0.5 0.5"
+				"FireModes"					"semi"
+				"bulletcount"				"1"
+				"maxrange"					"6000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"45acp_pistol"
+				"clip_max"					"10"
+				"clip_max_rounds"			"7"
+				"clip_default"				"2"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"pistol"
+			}
+			"kitui_offset"
+			{
+				"position"				"10 2 1"
+			}
+			"team_access"	"security"
+		}
+		"weapon_mp5"
+		{
+			"import"						"ballistic_base"
+			"weapon_class"					"smg"
+			"print_name"					"#weapon_mp5"
+			"print_desc"					"#weapon_mp5_desc"
+			"view_model"					"models/weapons/v_mp5kpdw.mdl"
+			"world_model"					"models/weapons/w_mp5k.mdl"
+			"rounds_per_minute"				"900"
+			"weapon_slot"					"secondary"
+			"act_table"						"shortrifle"
+			"weapon_abilities"				"ironsight"
+			"weapon_weight"					"128" // (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
+			"weapon_cost"					"3"
+			"barrel_length"					"12"
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"62"
+				"fov_wpn_sprint"			"64"
+				"fov_wpn_ironsight"			"80"
+				"fov_wpn_focus"				"85"
+			}
+			"sounds"
+			{
+				"shot_single"			"Weapon_MP5K.Single"
+				"shot_single_local"		"Weapon_MP5K.SingleLocal"
+				"shot_silent"			"Weapon_MP5K.SingleSilenced"
+				"shot_silent_local"		"Weapon_MP5K.SingleSilencedLocal"
+				"empty"					"Weapon_MP5K.Empty"
+				"clipin"				"Weapon_MP5K.Magin"
+				"clipout"				"Weapon_MP5K.Magout"
+				"boltback"				"Weapon_MP5K.Boltback"
+				"boltrelease"			"Weapon_MP5K.Boltrelease"
+				"rofdown"				"Weapon_MP5K.ROF"
+				"rofup"					"Weapon_MP5K.ROF"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_mp5_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_mp5_3rd"	
+				"particle_tracer"			"weapon_tracers"	
+			}
+			"recoil"
+			{				
+				"recoil_lateral_range"				"-0.55 0.85"
+				"recoil_vertical_range"				"1.725 1.95"
+				"recoil_aim_punch"					"0.3 0.5"
+				"recoil_rest_rate"					"5"
+				"recoil_rest_delay"					"0.14"
+				"recoil_roll_range"					"-1.25 -1.25"
+				"recoil_roll_rest_rate"				"150"
+				"recoil_freeaim_frac"				"0.25"
+				
+				"recoil_additional_rest_per_shot" 	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time" 			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots" 			"5"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor" 		"0.82"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"					"0.40 0.40 0.40"
+				"FireModes"					"semi, burst, full"
+				"bulletcount"				"1"
+				"maxrange"					"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"9x19mm_30rd"
+				"clip_max"					"12"
+				"clip_max_rounds"			"30"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"18 0 1"
+			}
+			"team_access"	"security, insurgent"
+		}
+		"weapon_m590"
+		{
+			"weapon_cost"			"0"
+			"team_access"			"security"
+		}
+		"weapon_toz"
+		{
+			"weapon_cost"			"0"
+			"team_access"			"security"
+		}
+		"weapon_m40a1"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_mosin"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m9"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m67"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_f1"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m1911"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_makarov"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m14"
+		{
+			"IsBase"				"1"
+		}
+		"weapon_m18"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"ammo"
+	{
+		"00buck"
+		{
+			"import"				"default"
+			"bulletcount"			"9"
+			"damageType"			"DMG_BUCKSHOT"
+			"brass_model"			"models/weapons/shells/12guage.mdl"
+			"brass_sound"			"BOUNCE_SHOTSHELL"
+			"Damage"
+			{
+				"800"				"18"
+				"2000"            	"9"
+				"7000"				"2"
+			}
+			"PenetrationPower"
+			{
+				"1000"						"100" 
+				"8000"						"10" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"0.50"
+				"HITGROUP_CHEST"			  	"0.30"
+				"HITGROUP_STOMACH"				"0.30"
+				"HITGROUP_LEFTARM"				"0.50"
+				"HITGROUP_RIGHTARM"				"0.50"
+				"HITGROUP_LEFTLEG"				"0.50"
+				"HITGROUP_RIGHTLEG"				"0.50"
+			}
+		}
+		"45acp_pistol"
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"0"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"Damage"					
+			{
+				"10"      "38"
+				"8000"    "16"
+			}
+			"PenetrationPower"
+			{
+				"10"      "100" 
+				"8000"    "68" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "0.60"
+				"HITGROUP_STOMACH"    "0.60"
+				"HITGROUP_LEFTARM"    "1.50"
+				"HITGROUP_RIGHTARM"   "1.50"
+				"HITGROUP_LEFTLEG"    "1.50"
+				"HITGROUP_RIGHTLEG"   "1.50"
+			}
+		}
+		"9x19"
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"0"
+			"brass_model" 				"models/weapons/shells/9x19.mdl"
+			"Damage"					
+			{
+				"10"      "30"
+				"8000"    "16"
+			}
+			"PenetrationPower"
+			{
+				"10"      "100" 
+				"8000"    "68" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "0.50"
+				"HITGROUP_CHEST"      "0.30"
+				"HITGROUP_STOMACH"    "0.30"
+				"HITGROUP_LEFTARM"    "0.65"
+				"HITGROUP_RIGHTARM"   "0.65"
+				"HITGROUP_LEFTLEG"    "0.65"
+				"HITGROUP_RIGHTLEG"   "0.65"
+			}
+		}
+	}
+	"player_settings"
+	{
+		"scoring"
+		{
+			"kill"						"10" 
+			"kill_offensive"			"10"
+			"kill_defensive"			"10" 
+			"kill_headshot_bonus"		"10"	
+			"kill_savior"				"10"	
+			"kill_bonus_domination"		"10"	
+			"kill_bonus_revenge"		"10"	
+			"assist"					"5"	
+
+			"obj_captured"				"0"
+			"obj_neutralized"			"0"
+			"cache_destroyed"			"0"
+			"intel_captured"			"0"
+			"vip_killed"				"0"
+			"safehouse_secured"			"0"
+		}
+	}
+}

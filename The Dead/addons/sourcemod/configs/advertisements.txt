@@ -1,0 +1,86 @@
+// Advertisements 0.6
+// by Tsunami
+// 
+// Types
+// -----
+// C: Center message
+// H: Hint message
+// M: Menu message
+// S: Say message
+//    - Colors:  {DEFAULT}, {TEAM}, {GREEN}, {LIGHTGREEN}
+//    - Example: {GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+	"1"
+	{
+		"type"		"S"
+		"text"		"{GREEN}You are playing on an Insurgency ANZ Server!"
+	}
+	"2"
+	{
+		"type"		"H"
+		"text"		"Please Help Keep Servers Running! Donate at www.insurgencyanz.com/donate"
+	}
+	"3"
+	{
+		"type"		"S"
+		"text"		""
+	}
+	"4"
+	{
+		"type"		"S"
+		"text"		"{GREEN}Join our TeamSpeak: {DEFAULT}ts.insurgencyanz.com\n{GREEN}Visit us online: {DEFAULT}www.insurgencyanz.com"
+	}
+	"5"
+	{
+		"type"		"S"
+		"text"		""
+	}
+	"6"
+	{
+		"type"		"S"
+		"text"		"{GREEN}Our servers use gameME!\n{DEFAULT}Type 'help' in chat for commands you can use."
+	}
+	"7"
+	{
+		"type"		"S"
+		"text"		""
+	}
+	"8"
+	{
+		"type"		"S"
+		"text"		"{GREEN}InsurgencyANZ host a competitive (5v5 Firefight) ladder! {DEFAULT}\nSeason 3 Started 4th May.\nYou can still sign up though!\nVisit {LIGHTGREEN}www.insurgencyanz.com {DEFAULT}for more info!"
+	}
+	"9"
+	{
+		"type"		"S"
+		"text"		""
+	}
+	"10"
+	{
+		"type"		"S"
+		"text"		"'Spawn Camping' is discouraged, but is an unavoidable part of the game. Admins will make the call if a player is going overboard."
+	}
+	"11"
+	{
+		"type"		"S"
+		"text"		""
+	}
+	"12"
+	{
+		"type"		"S"
+		"text"		"Our Admins work on a 3 strike system. This rule may only be ignored if the offender is a deliberate/recurring pest."
+	}
+	"13"
+	{
+		"type"		"S"
+		"text"		""
+	}
+}
