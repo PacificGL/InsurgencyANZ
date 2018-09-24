@@ -1,2 +1,11 @@
+# Ignore CustomSkins
 CustomSkins/*
+
+# Allow CustomSkins README
 !/CustomSkins/README.md
+
+# Allow Auscam_Security
+!/CustomSkins/Auscam_Security
+
+# Allow Multicam_Security
+!/CustomSkins/Multicam_Security
