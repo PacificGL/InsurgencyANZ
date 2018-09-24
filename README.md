@@ -1,5 +1,5 @@
 # InsurgencyANZ
-A collection of skins, mods, plugins and theaters for Insurgency 2014, developed by Pacific Gaming League and the Insurgency community.
+A collection of skins, mods, plugins and theaters for Insurgency 2014, developed by Pacific Gaming League and the Insurgency community. Please ensure that you have installed [Metamod](https://www.sourcemm.net/) & [Sourcemod](https://www.sourcemod.net/) for the collections that list it as a requirement. All code is free to use and alter, however if large chunks are being used in another project, please provide credit where appropriate, as per the GNU GPL-3.0. Thank you and enjoy!
 
 ## Contents
 * [CommonPlugins](https://github.com/PacificGL/InsurgencyANZ/tree/master/CommonPlugins) - A collection of Sourcemod plugins, used by ANZ/PGL servers
